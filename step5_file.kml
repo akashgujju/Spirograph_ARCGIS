@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+    <Document>
+        <Style id="z1">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Folder>
+            <name>Home</name>
+            <description>GPS Coordinates of Home</description>
+            <Placemark>
+                <name>Home</name>
+                <styleUrl>#z1</styleUrl>
+                <Point>
+                    <coordinates>-118.29270, 34.01373</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Libraries</name>
+            <description>GPS Libraries</description>
+            <Placemark>
+                <name>Leavy Library</name>
+                <styleUrl>#z2</styleUrl>
+                <Point>
+                    <coordinates>-118.28278, 34.02173</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Doheny Library</name>
+                <styleUrl>#z2</styleUrl>
+                <Point>
+                    <coordinates>-118.28389, 34.02032</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Seaver Library</name>
+                <styleUrl>#z2</styleUrl>
+                <Point>
+                    <coordinates>-118.28879, 34.01965</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Waterworks</name>
+            <description>GPS Waterworks</description>
+            <Placemark>
+                <name>SCA</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.28646, 34.02317</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Leavey Pool</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.28291, 34.02146</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Carolyn Ftn</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.28340, 34.02046</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Entrances</name>
+            <description>GPS Coordinates of Entrances</description>
+            <Placemark>
+                <name>Wyatt Way</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.28544, 34.02405</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Trousday Pwy</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.28636, 34.01874</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>GH Plaza</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.28372, 34.02295</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Eateries</name>
+            <description>GPS Coordinates of Eateries</description>
+            <Placemark>
+                <name>Dulce</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.28524, 34.02533</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Starbucks</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.28255, 34.02135</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>FH Coffee</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.28240, 34.01897</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Convex Hull</name>
+            <description>Convex Hull Polygon</description>
+            <Placemark>
+                <Polygon>
+                    <extrude>1</extrude>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates> -118.2927,34.01373,100
+                  -118.28524,34.02533,100
+                  -118.28255,34.02135,100
+                  -118.2824,34.01897,100
+                  -118.2927,34.01373,100 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Nearest Neighbor</name>
+            <Placemark>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <coordinates>-118.29270, 34.01373,0  -118.28879, 34.01965,0</coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <coordinates>-118.29270, 34.01373,0  -118.28636, 34.01874,0</coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <coordinates>-118.29270, 34.01373,0  -118.28389, 34.02032,0</coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <coordinates>-118.29270, 34.01373,0  -118.28646, 34.02317,0</coordinates>
+                </LineString>
+            </Placemark>
+        </Folder>
+        <!--  POLYGON((-118.282405 34.018676,-118.288793 34.019659,-118.289351 34.033649,-118.282787 34.021734,-118.282405 34.018676)) -->
+    </Document>
+</kml>
